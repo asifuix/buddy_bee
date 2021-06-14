@@ -35,7 +35,7 @@ $(document).ready(function(){
       items:1,
       loop:true,
       margin:10,
-      autoplay:false,
+      autoplay:true,
       autoplayTimeout:4000,
       autoplayHoverPause:false,
       responsive:{
