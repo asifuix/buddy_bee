@@ -714,6 +714,14 @@ section{
 	border-radius: 50%;
 	border: 5px solid #fff;
 }
+.checklist-details::after{
+	content: "Stage 1";
+	position: absolute;
+	top: 128px;
+    left: -110px;
+    font-size: 18px;
+    color: #818181;
+}
 .checklist-details:nth-child(2):before{
 	content: '\f35b';
     font-family: "Font Awesome 5 Pro";
@@ -721,12 +729,28 @@ section{
     text-align: center;
     line-height: 30px;
 }
+.checklist-details:nth-child(2):after{
+	content: "Stage 2";
+	position: absolute;
+	top: 128px;
+    left: -110px;
+    font-size: 18px;
+    color: #818181;
+}
 .checklist-details:nth-child(3):before{
 	content: '\f055';
     font-family: "Font Awesome 5 Pro";
     color: #fff;
     text-align: center;
     line-height: 30px;
+}
+.checklist-details:nth-child(3):after{
+	content: "Stage 3";
+	position: absolute;
+	top: 128px;
+    left: -110px;
+    font-size: 18px;
+    color: #818181;
 }
 .document-process-bar{
 	position: relative;
