@@ -169,6 +169,13 @@
   .footer-menu li a{
     font-size: 14px;
   }
+
+  .consultant .col-md-3,.consultant .col-md-6{
+    width: 100%;
+  }
+  .document-checklist{
+    margin-top: 30% !important;
+  }
 }
 
 /* 
