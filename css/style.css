@@ -707,12 +707,26 @@ section{
 	content: "";
 	position: absolute;
 	top: 122px;
-	left: -31px;
-	background: #C5C6C6;
-	height: 30px;
-	width: 30px;
+	left: -35px;
+	background: #969C9C;
+	height: 40px;
+	width: 40px;
 	border-radius: 50%;
 	border: 5px solid #fff;
+}
+.checklist-details:nth-child(2):before{
+	content: '\f35b';
+    font-family: "Font Awesome 5 Pro";
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+.checklist-details:nth-child(3):before{
+	content: '\f055';
+    font-family: "Font Awesome 5 Pro";
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
 }
 .document-process-bar{
 	position: relative;
