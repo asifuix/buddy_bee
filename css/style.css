@@ -804,3 +804,107 @@ section{
 .document-status i{
 	color: #76C662;
 }
+/*blog page css here*/
+.blog-title h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: #1E1D1B;
+	text-transform: uppercase;
+}
+.blog-author-img img{
+	border-radius: 50%;
+}
+.blog-author-des h5{
+	font-size: 22px;
+	color: #4C4339;
+}
+.blog-author-des p{
+	font-size: 14px;
+	font-weight: 500;
+	font-style: italic;
+	color: #4C4339;
+	margin-bottom: 0;
+}
+.popular-consultant h5{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	color: #373A37;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.consultant-card-left{
+	width: 40%;
+}
+.consultant-img{
+	position: relative;
+}
+.cosultant-country{
+	position: absolute;
+	top: 25px;
+    left: 30px;
+}
+.consultant-review{
+	font-size: 10px;
+	color: #FFC400;
+	margin-top: 10px;
+}
+.consultant-card-left p{
+	font-size: 10px;
+	color: #818181;
+}
+.consultant-card-left a{
+	font-family: 'Poppins', sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #fff;
+	background: #1B6CB4;
+	padding: 10px 20px;
+	border-radius: 1px;
+}
+.consultant-card-right{
+	width: 60%;
+}
+.consultant-bookmark i{
+	font-size: 18px;
+	color: #F07777;
+}
+.consultant-name h6{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: #4B4B4B;
+}
+.consultant-name p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 10px;
+	color: #818181;
+	text-transform: uppercase;
+}
+.consultant-card-right span{
+	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-size: 10px;
+	color: #818181;
+	text-transform: uppercase;
+}
+.blog-des h4{
+	font-size: 24px;
+	font-weight: 600;
+	color: #1D1D1B;
+}
+.blog-des p{
+	font-size: 16px;
+	line-height: 22px;
+	color: #4B4B4B;
+	text-align: justify;
+}
+.blog-des p i::nth-child(2){
+	color: #818181;
+}
+.start-learning-btn a{
+	font-size: 16px;
+	color: #fff;
+	background: #1B6CB4;
+	padding: 20px 40px;
+	border-radius: 5px;
+}
