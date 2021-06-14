@@ -1,0 +1,396 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .navbar-nav {
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+    margin-top: 15px;
+  }
+  .navbar-brand{
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-brand img{
+    width: 40%;
+  }
+  .searchbar {
+    padding: 15px 0;
+  }
+  .topbar .navbar-nav{
+    flex-direction: unset;
+  }
+  .small-menu{
+    width: auto;
+  }
+  .social-menu{
+    top: 10%;
+  }
+  .social-menu i{
+    font-size: 35px;
+  }
+  .banner h1 {
+    width: 38%;
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .banner p {
+    width: 45%;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .banner .owl-theme .owl-dots .owl-dot span {
+    width: 30px;
+    height: 8px;
+    margin: 5px 20px;
+    box-shadow: 0 0 0 5px #818181bf;
+  }
+  .banner .owl-theme .owl-nav.disabled+.owl-dots{
+    top: 85%;
+  }
+  .slider-text{
+    left: 45px;
+  }
+  .banner-filter{
+    position: unset;
+    width: 100%;
+    border: 2px solid #1d5b9e33;
+    margin-top: 15px;
+    padding: 8px;
+  }
+  .filter-divider{
+    margin: auto 10px;
+  }
+  .review-section{
+    padding: 30px 0;
+  }
+  .review-left{
+    height: 238px;
+    padding: 25px 30px;
+  }
+  .review-left p{
+    margin-bottom: 24px !important;
+  }
+  .review-left a{
+    padding: 12px 24px;
+  }
+  .review-right{
+    height: auto;
+  }
+  .review-right-text{
+    top: 10%;
+  }
+  .review-right p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-right: 15px;
+  }
+  .get-start{
+    margin-top: 45px;
+  }
+  .why-choose{
+    padding: 30px 0;
+  }
+  .why-choose-content p{
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .how-work{
+    padding: 30px 0;
+  }
+  .how-work-content p{
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .do-more{
+    padding: 30px 0;
+  }
+  .features-list{
+    line-height: 34px;
+  }
+  .features-list span {
+    font-size: 14px;
+  }
+  .features-img img{
+    width: 100%;
+  }
+  .do-more-content h3{
+    font-size: 16px;
+  }
+  .do-more-content p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .tools-res{
+    padding: 30px 0;
+  }
+  .partner {
+    padding-top: 30px;
+  }
+  .download-app {
+    padding: 20px 0;
+  }
+  .download-app .row .col-md-4 {
+    margin-top: auto;
+  }
+  .download-app-img img {
+    width: 75%;
+  }
+  .footer-menu li a{
+    font-size: 14px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  section{
+    padding: 20px 0 !important;
+  }
+  h2{
+    font-size: 20px !important;
+  }
+  h3{
+    font-size: 18px !important;
+  }
+  p{
+    font-size: 12px !important;
+    line-height: 18px !important;
+  }
+  .navbar-nav {
+    width: 100%;
+    justify-content: center;
+    margin: 5px 0 !important;
+  }
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+    margin-top: 15px;
+  }
+  .navbar-brand{
+    text-align: center;
+  }
+  .navbar-brand img{
+    width: 75%;
+  }
+  .navbar-toggler-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .navbar-toggler {
+    padding: 5px 10px;
+  }
+  .nav-link {
+    font-size: 14px;
+    padding: 5px 0 !important;
+  }
+  .searchbar {
+    display: none;
+  }
+  .topbar .navbar-nav{
+    flex-direction: unset;
+  }
+  .small-menu{
+    margin: 0 auto;
+  }
+  .login{
+    padding: 5px 10px;
+  }
+  .signup{
+    padding: 5px 10px;
+  }
+  .small-menu a{
+    font-size: 14px;
+  }
+  .social-menu{
+    top: 10%;
+  }
+  .social-menu i{
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  .banner h1 {
+    width: 45%;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 8px;
+  }
+  .banner p {
+    width: 74%;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
+  .banner .owl-theme .owl-dots .owl-dot span {
+    width: 20px;
+    height: 5px;
+    margin: 5px 10px;
+    box-shadow: 0 0 0 3px #818181bf;
+  }
+  .banner .owl-theme .owl-nav.disabled+.owl-dots{
+    position: unset;
+  }
+  .slider-text{
+    left: 15px;
+    top: 5px;
+  }
+  .banner .searchbar{
+    display: block;
+  }
+  .searchbar-content input{
+    width: 78%;
+  }
+  .banner-filter{
+    display: none !important;
+  }
+  .review-left{
+    height: 20vh;
+  }
+  .review-left h2{
+    display: none;
+  }
+  .review-left p{
+    display: none;
+  }
+  .review-left a{
+    display: none;
+  }
+  .review-right{
+    height: 20vh;
+    width: 100%;
+  }
+  .review-right h3 {
+    font-size: 14px !important;
+  }
+  .review-right span {
+    font-size: 8px;
+    font-weight: 500;
+  }
+  .review-right p {
+    font-size: 10px !important;
+    line-height: 15px !important;
+    margin-top: 10px !important;
+    margin-right: 0; 
+  }
+  .review-right-text{
+    top: 10px;
+  }
+  .get-start{
+    margin-top: 25px;
+  }
+  .get-start a {
+    font-size: 14px;
+    padding: 15px 45px;
+  }
+  .why-choose-content img{
+    width: 65%;
+    margin: 0 auto;
+  }
+  .how-work-content img{
+    width: 65%;
+    margin: 0 auto;
+  }
+  .do-more-title p{
+    width: 100%;
+  }
+  .features-list{
+    line-height: 30px;
+  }
+  .features-list span{
+    font-size: 16px;
+  }
+  .features-list i{
+    font-size: 16px;
+  }
+  .features-img img{
+    margin: 20px 0;
+  }
+  .tools-res .row{
+    margin-bottom: 0 !important;
+  }
+  .tools-res-title h2{
+    margin-bottom: 8px;
+  }
+  .tools-card{
+    width: 100%;
+    margin: 10px 0 10px 0 !important;
+  }
+  .partner-title p{
+    width: 100%;
+  }
+  .partner .owl-stage-outer{
+    height: 85px;
+  }
+  .download-app-content{
+    padding: 15px 0;
+  }
+  .download-app-content span{
+    font-size: 30px;
+  }
+  .download-app-content p{
+    width: 100%;
+  }
+  .download-app-img{
+    text-align: center;
+  }
+  .footer-menu li a{
+    font-size: 6px;
+  }
+}

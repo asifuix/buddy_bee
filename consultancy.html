@@ -1,0 +1,802 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- wow css -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- calender css -->
+    <link rel="stylesheet" href="css/mini-event-calendar.min.css">
+
+    <!-- process circle css -->
+    <link rel="stylesheet" href="css/progresscircle.css">
+
+    <!-- Custom CSS -->
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Buddy Bee</title>
+  </head>
+
+  <body>
+    <nav class="nav-menu">
+      <div class="topbar">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+              <div class="searchbar">
+                <div class="searchbar-content">
+                  <input type="text" placeholder="Start Your Search">
+                  <a href="#"><i class="fas fa-search"></i></a>
+                </div>
+              </div>
+              <div class="small-menu">
+                <div class="navbar-nav ms-auto">
+                    <a class="my-auto calendar" href="#"><i class="far fa-calendar-alt"></i></a>
+                  <div class="dropdown my-auto">
+                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">English</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a href="#">German</a></li>
+                      <li><a href="#">Spanish</a></li>
+                      <li><a href="#">French</a></li>
+                    </ul>
+                  </div>
+                    <a class="my-auto login" href="#">Log In</a>
+                    <a class="my-auto signup" href="#">Sign Up</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="menubar">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Get Consultancy</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Upcoming Event</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Be a Consultant</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Community</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ielts Guideline</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">IELTS</a></li>
+                      <li><a class="dropdown-item" href="#">TOFEL</a></li>
+                      <li><a class="dropdown-item" href="#">GRE</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </nav>
+
+    <section class="consultant">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="calender">
+              <h4>Schedule</h4>
+              <div id="calendar"></div>
+              <a href="#">Show All Time</a>
+              </div>
+          </div>
+          <div class="col-md-6">
+            <div class="consultant-intro d-flex mb-4">
+              <div class="consultant-img">
+                <img src="images/consultant-1.png" alt="consultant-1">
+                <div class="active-status"></div>
+              </div>
+              <div class="consultant-text ms-3">
+                <h6>Cristina Shjorekscarl</h6>
+                <span><img src="images/favicon.png" alt="favicon">New Consultant</span>
+                <span class="ms-2"><img src="images/germany-flag.png" alt="germany-flag">Humburg, Germany</span>
+              </div>
+              <div class="consultant-meet">
+                <a href="#"><i class="fas fa-video"></i>Join Meeting</a>
+              </div>
+            </div>
+            <div class="consultant-video-intro">
+              <iframe width="100%" height="307" src="https://www.youtube.com/embed/obI5MImb_2w?autoplay=1&mute=1;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="countdown-bar text-center">
+              <div id="countdown"></div>
+              <p>Hold on buddy, We are almost there!</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="consultant-details">
+              <div class="consultant-rating">
+                <span>Consultant Profile</span>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>Consectetur adipiscing. elitEleifend vel libero ipsum, pulvinar facilisi diam</p>
+              <a href="#">Read more</a>
+              <div class="consulting-balance">
+                <p>Paid for 2 times consultancy</p>
+                <p>Current Balance</p>
+                <h1>$8675.30</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="checklist">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="circlechart" data-percentage="65">
+            <span>Complete</span>
+            </div>
+          </div>
+          <div class="col-md-10 document-checklist mt-5">
+            <div class="checklist-details">
+              <h5>Document Checklist</h5>
+              <div class="checklist-title">
+                <div class="row">
+                  <div class="col-md-3">
+                    <h6>Document Type</h6>
+                  </div>
+                  <div class="col-md-3">
+                    <h6>Progress</h6>
+                  </div>
+                  <div class="col-md-2">
+                    <h6>ETA Date</h6>
+                  </div>
+                  <div class="col-md-2">
+                    <h6>Remaining Time</h6>
+                  </div>
+                  <div class="col-md-2">
+                    <h6>Status</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="checklist-data">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="document-type">
+                      <span>Language Certificate</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="document-process d-flex justify-content-between">
+                      <div class="document-process-bar">
+                        <div class="document-total-process">  
+                        </div>
+                      </div>
+                      <span data-percentage="69">69%</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-data">
+                      <span>20/12/21</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-time">
+                      <span>2 Months</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-status">
+                      <i class="fas fa-check-circle"></i><span class="ms-2">Done</span>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="checklist-data">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="document-type">
+                      <span>Passport</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="document-process d-flex justify-content-between">
+                      <div class="document-process-bar">
+                        <div class="document-total-process">  
+                        </div>
+                      </div>
+                      <span data-percentage="100">100%</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-data">
+                      <span>20/12/21</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-time">
+                      <span>1 Months</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-status">
+                      <i class="fas fa-check-circle"></i><span class="ms-2">Done</span>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="checklist-data">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="document-type">
+                      <span>Certificates</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="document-process d-flex justify-content-between">
+                      <div class="document-process-bar">
+                        <div class="document-total-process">  
+                        </div>
+                      </div>
+                      <span data-percentage="100">100%</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-data">
+                      <span>20/12/21</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-time">
+                      <span>15 Days</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-status">
+                      <i class="fas fa-check-circle"></i><span class="ms-2">Done</span>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="checklist-data">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="document-type">
+                      <span>Transcripts</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="document-process d-flex justify-content-between">
+                      <div class="document-process-bar">
+                        <div class="document-total-process">  
+                        </div>
+                      </div>
+                      <span data-percentage="50">50%</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-data">
+                      <span>20/12/21</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-time">
+                      <span>33 days</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-status">
+                      <i class="fas fa-check-circle"></i><span class="ms-2">Done</span>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="checklist-data">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="document-type">
+                      <span>Medical</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="document-process d-flex justify-content-between">
+                      <div class="document-process-bar">
+                        <div class="document-total-process">  
+                        </div>
+                      </div>
+                      <span data-percentage="43">43%</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-data">
+                      <span>20/12/21</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-time">
+                      <span>2 days</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-status">
+                      <i class="fas fa-check-circle"></i><span class="ms-2">Done</span>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </div>
+            <div class="checklist-details my-5">
+              <h5>Document Checklist</h5>
+              <div class="checklist-title">
+                <div class="row">
+                  <div class="col-md-3">
+                    <h6>Document Type</h6>
+                  </div>
+                  <div class="col-md-3">
+                    <h6>Progress</h6>
+                  </div>
+                  <div class="col-md-2">
+                    <h6>ETA Date</h6>
+                  </div>
+                  <div class="col-md-2">
+                    <h6>Remaining Time</h6>
+                  </div>
+                  <div class="col-md-2">
+                    <h6>Status</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="checklist-data">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="document-type">
+                      <span>Language Certificate</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="document-process d-flex justify-content-between">
+                      <div class="document-process-bar">
+                        <div class="document-total-process">  
+                        </div>
+                      </div>
+                      <span data-percentage="69">69%</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-data">
+                      <span>20/12/21</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-time">
+                      <span>2 Months</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-status">
+                      <i class="fas fa-check-circle"></i><span class="ms-2">Done</span>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="checklist-data">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="document-type">
+                      <span>Passport</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="document-process d-flex justify-content-between">
+                      <div class="document-process-bar">
+                        <div class="document-total-process">  
+                        </div>
+                      </div>
+                      <span data-percentage="100">100%</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-data">
+                      <span>20/12/21</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-time">
+                      <span>1 Months</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-status">
+                      <i class="fas fa-check-circle"></i><span class="ms-2">Done</span>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="checklist-data">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="document-type">
+                      <span>Certificates</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="document-process d-flex justify-content-between">
+                      <div class="document-process-bar">
+                        <div class="document-total-process">  
+                        </div>
+                      </div>
+                      <span data-percentage="100">100%</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-data">
+                      <span>20/12/21</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-time">
+                      <span>15 Days</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-status">
+                      <i class="fas fa-check-circle"></i><span class="ms-2">Done</span>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="checklist-data">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="document-type">
+                      <span>Transcripts</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="document-process d-flex justify-content-between">
+                      <div class="document-process-bar">
+                        <div class="document-total-process">  
+                        </div>
+                      </div>
+                      <span data-percentage="50">50%</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-data">
+                      <span>20/12/21</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-time">
+                      <span>33 days</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-status">
+                      <i class="fas fa-check-circle"></i><span class="ms-2">Done</span>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="checklist-data">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="document-type">
+                      <span>Medical</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="document-process d-flex justify-content-between">
+                      <div class="document-process-bar">
+                        <div class="document-total-process">  
+                        </div>
+                      </div>
+                      <span data-percentage="43">43%</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-data">
+                      <span>20/12/21</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-time">
+                      <span>2 days</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-status">
+                      <i class="fas fa-check-circle"></i><span class="ms-2">Done</span>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </div>
+            <div class="checklist-details">
+              <h5>Document Checklist</h5>
+              <div class="checklist-title">
+                <div class="row">
+                  <div class="col-md-3">
+                    <h6>Document Type</h6>
+                  </div>
+                  <div class="col-md-3">
+                    <h6>Progress</h6>
+                  </div>
+                  <div class="col-md-2">
+                    <h6>ETA Date</h6>
+                  </div>
+                  <div class="col-md-2">
+                    <h6>Remaining Time</h6>
+                  </div>
+                  <div class="col-md-2">
+                    <h6>Status</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="checklist-data">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="document-type">
+                      <span>Language Certificate</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="document-process d-flex justify-content-between">
+                      <div class="document-process-bar">
+                        <div class="document-total-process">  
+                        </div>
+                      </div>
+                      <span data-percentage="69">69%</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-data">
+                      <span>20/12/21</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-time">
+                      <span>2 Months</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-status">
+                      <i class="fas fa-check-circle"></i><span class="ms-2">Done</span>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="checklist-data">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="document-type">
+                      <span>Passport</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="document-process d-flex justify-content-between">
+                      <div class="document-process-bar">
+                        <div class="document-total-process">  
+                        </div>
+                      </div>
+                      <span data-percentage="100">100%</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-data">
+                      <span>20/12/21</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-time">
+                      <span>1 Months</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-status">
+                      <i class="fas fa-check-circle"></i><span class="ms-2">Done</span>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="checklist-data">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="document-type">
+                      <span>Certificates</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="document-process d-flex justify-content-between">
+                      <div class="document-process-bar">
+                        <div class="document-total-process">  
+                        </div>
+                      </div>
+                      <span data-percentage="100">100%</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-data">
+                      <span>20/12/21</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-time">
+                      <span>15 Days</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-status">
+                      <i class="fas fa-check-circle"></i><span class="ms-2">Done</span>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="checklist-data">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="document-type">
+                      <span>Transcripts</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="document-process d-flex justify-content-between">
+                      <div class="document-process-bar">
+                        <div class="document-total-process">  
+                        </div>
+                      </div>
+                      <span data-percentage="50">50%</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-data">
+                      <span>20/12/21</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-time">
+                      <span>33 days</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-status">
+                      <i class="fas fa-check-circle"></i><span class="ms-2">Done</span>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="checklist-data">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="document-type">
+                      <span>Medical</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="document-process d-flex justify-content-between">
+                      <div class="document-process-bar">
+                        <div class="document-total-process">  
+                        </div>
+                      </div>
+                      <span data-percentage="43">43%</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-data">
+                      <span>20/12/21</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-time">
+                      <span>2 days</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="document-status">
+                      <i class="fas fa-check-circle"></i><span class="ms-2">Done</span>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="download-app">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 my-auto">
+              <div class="download-app-content">
+                <span>Buddybee on the go</span>
+                <p>Start or schedule  consultants anytime, anywhere with Android and iPhone apps</p>
+                <div class="download-store">
+                  <a href="#" target="_blank"><img src="images/app-store.png" alt="app-store"></a>
+                  <a href="#" target="_blank"><img src="images/google-play.png" alt="google-play"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="download-app-img">
+              <img src="images/video-call.png" alt="video-call">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="d-flex justify-content-between m-0">
+                <li><a href="#">Copyright</a></li>
+                <li><a href="#">&copy;2021 Buddybee</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">Mission Statement</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- back to top btn -->
+    <a id="back-top"><i class="fas fa-chevron-up"></i></a>
+    <!-- back to top btn -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- custom js-->
+    <script src="js/main.js"></script>
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- wow js -->
+    <script src="js/wow.min.js"></script>
+    <!-- calender js -->
+    <script src="js/mini-event-calendar.min.js"></script>
+    <!-- countdown js -->
+    <script src="js/jquery.countdown.min.js"></script>
+    <!-- process circle js -->
+    <script src="js/progresscircle.js"></script>
+
+  </body>
+</html>
