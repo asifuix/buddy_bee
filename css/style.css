@@ -859,7 +859,7 @@ section{
 	text-transform: uppercase;
 	color: #fff;
 	background: #1B6CB4;
-	padding: 10px 20px;
+	padding: 8px 16px;
 	border-radius: 1px;
 }
 .consultant-card-right{
@@ -887,6 +887,13 @@ section{
 	color: #818181;
 	text-transform: uppercase;
 }
+.view-more-btn a{
+	font-size: 10px;
+	color: #818181;
+	background: #F6F1F1;
+	padding: 10px;
+	border-radius: 5px;
+}
 .blog-des h4{
 	font-size: 24px;
 	font-weight: 600;
@@ -907,4 +914,22 @@ section{
 	background: #1B6CB4;
 	padding: 20px 40px;
 	border-radius: 5px;
+}
+.author-short-des{
+	margin-top: 100px;
+	padding-top: 50px;
+	border-top: 5px solid #FBBC19;
+}
+.author-short-des h6{
+	font-size: 18px;
+	color: #818181;
+	margin-top: 10px;
+}
+.author-short-des h4{
+	font-size: 24px;
+	color: #1D5B9E;
+}
+.author-short-des p{
+	font-size: 16px;
+	color: #4B4B4B;
 }
