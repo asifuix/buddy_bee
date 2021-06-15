@@ -176,6 +176,12 @@
   .document-checklist{
     margin-top: 30% !important;
   }
+  .popular-consultant{
+    display: none;
+  }
+  .blog-section .col-md-6{
+    width: 100%;
+  }
 }
 
 /* 
@@ -399,5 +405,11 @@
   }
   .footer-menu li a{
     font-size: 6px;
+  }
+  .popular-consultant{
+    display: none;
+  }
+  .start-learning-btn a{
+    padding: 20px 12px;
   }
 }
