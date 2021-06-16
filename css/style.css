@@ -3,6 +3,9 @@
 	margin: 0;
 	padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 body{
 	font-family: 'Inter', sans-serif;
 	box-sizing: border-box;
@@ -945,7 +948,7 @@ section{
 	color: #1E1D1B;
 }
 .consultant-title .searchbar{
-	width: 48%;
+	width: 304px;
 	margin: 0 auto;
 }
 .consultant-title .searchbar-content{
