@@ -956,8 +956,9 @@ section{
 	padding: 5px;
 }
 .viewed-consultant{
-	padding: 30px;
+	padding: 20px;
 	background: #fff;
+	border-radius: 10px;
 }
 .viewed-consultant .cosultant-country{
 	top: 40px;
@@ -970,7 +971,7 @@ section{
 	margin-bottom: 30px;
 }
 .viewed-consultant .consultant-title h4{
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 500;
 	color: #494446;
 }
@@ -989,27 +990,29 @@ section{
 
 }
 .consultant-bio{
-	padding: 30px;
+	padding: 20px;
 	background: #fff;
+	border-radius: 10px;
 }
 .consultant-bio-left .consultant-review{
 	font-size: 12px;
 }
 .consultant-bio-left .consultant-review a{
 	font-family: 'Poppins', sans-serif;
-    font-size: 8px;
-    text-transform: uppercase;
-    color: #fff;
-    background: #1B6CB4;
-    padding: 3px 10px;
-    border-radius: 3px;
-    height: auto;
-    vertical-align: middle;
-    margin-left: 15px;
+	font-size: 8px;
+	text-transform: uppercase;
+	color: #fff;
+	background: #1B6CB4;
+	padding: 3px 10px;
+	border-radius: 3px;
+	height: auto;
+	vertical-align: middle;
+	margin-left: 3px;
 }
 .consultancy-topic{
-	padding: 30px;
+	padding: 20px;
 	background: #fff;
+	border-radius: 10px;
 }
 .consultancy-topic-title h6{
 	font-size: 14px;
@@ -1018,7 +1021,7 @@ section{
 	margin-bottom: 30px;
 }
 .consultancy-topic .consultant-title h4{
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 500;
 	color: #494446;
 }
