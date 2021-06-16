@@ -934,6 +934,9 @@ section{
 	color: #4B4B4B;
 }
 /*consultant page css code here*/
+.consultant-section{
+	background: #FAF3F3;
+}
 .consultant-title h4{
 	font-family: 'Poppins', sans-serif;
 	font-size: 24px;
@@ -942,8 +945,11 @@ section{
 	color: #1E1D1B;
 }
 .consultant-title .searchbar{
-	width: 56%;
+	width: 48%;
 	margin: 0 auto;
+}
+.consultant-title .searchbar-content{
+	padding: 5px;
 }
 .viewed-consultant .cosultant-country{
 	top: 40px;
@@ -959,6 +965,7 @@ section{
 	font-size: 16px;
 	font-weight: 500;
 	color: #494446;
+	text-align: left;
 }
 .viewed-consultant .consultant-title p{
 	font-size: 10px;
@@ -999,7 +1006,6 @@ section{
 	font-size: 16px;
 	font-weight: 500;
 	color: #494446;
-	text-align: left;
 }
 .consultancy-topic .consultant-title p{
 	font-size: 10px;
