@@ -1060,3 +1060,216 @@ section{
 	border: 1px solid #1B6CB4;
 	transition: 0.7s ease-in-out;
 }
+/*pricing page css code here*/
+.pricing{
+	background: #F8F5F5;
+	text-align: center;
+}
+.pricing-title h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+	font-weight: 600;
+	color: #4B4B4B;
+	text-transform: uppercase;
+}
+.pricing-package .col-md-4{
+	padding: 35px;
+	background: #fff;
+	border-radius: 50px;
+	width: 32%;
+}
+.pricing-package .col-md-4:hover{
+	box-shadow: 0 4px 6px 1px #4ee1f933;
+	transition: 0.5s ease-in-out;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.pricing-package .col-md-4:hover .pricing-text{
+	opacity: 1;
+	transition: 0.5s ease-in-out;
+	cursor: pointer;
+}
+.pricing-text{
+	opacity: 0.7;
+}
+.pricing-text h6{
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+.basic .pricing-text h6{
+	color: #50B3DE;
+	margin-bottom: 35px;
+}
+.standard .pricing-text h6{
+	color: #FBBC19;
+}
+.premium .pricing-text h6{
+	color: #FA818D;
+}
+.pricing-text span{
+	font-size: 80px;
+	font-weight: 700;
+	color: #4D5E70;
+}
+.pricing-text span sup{
+	font-size: 50px;
+	font-weight: 500;
+}
+.pricing-text h5{
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #4D5E70;
+	margin-bottom: 50px;
+}
+.pricing-text p{
+	font-weight: 500;
+	color: #7F8C97;
+}
+.pricing-text button{
+	background: #1B6CB4;
+	border-radius: 50px;
+	color: #fff;
+	padding: 10px 40px;
+	border: 2px solid #1B6CB4;
+	margin-top: 50px;
+}
+.package-summary .summary-title h6{
+	font-size: 22px;
+	font-weight: 700;
+	color: #4B4B4B;
+}
+.package-summary .summary-title p{
+	font-size: 18px;
+	color: #5F5A51;
+}
+.package-summary .summary-title p:nth-child(3){
+	font-size: 16px;
+}
+.package-summary .summary-title p:nth-child(4){
+	font-size: 14px;
+}
+.package-summary .total-value span{
+	font-size: 18px;
+	color: #5F5A51;
+}
+.package-summary .subscription span{
+	font-size: 18px;
+	font-weight: 500;
+	color: #50B3DE;
+}
+.package-summary .total-price span{
+	font-size: 20px;
+	font-weight: 600;
+	color: #4B4B4B;
+}
+.package-summary .cancel-option{
+	background: #E8F3F4;
+	padding: 15px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+.package-summary .cancel-option span{
+	font-size: 18px;
+	color: #1B6CB4;
+}
+.package-summary .promo-content span{
+	font-size: 18px;
+	font-weight: 600;
+	color: #4B4B4B;
+	margin-right: 20px;
+}
+.package-summary .promo-input input{
+	color: #5F5A51;
+	padding: 10px;
+	border-right: none;
+	border: 1px solid #7F8C97;
+}
+.package-summary .promo-input input:focus{
+	outline: none;
+	border-radius: 0;
+}
+.package-summary .promo-input button{
+	padding: 10px;
+	background: #1B6CB4;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border: 1px solid #1B6CB4;
+	outline: none;
+}
+.package-summary .invitation{
+	text-align: left;
+	padding: 150px 0;
+}
+.package-summary .invite-form{
+	width: 65%;
+}
+.package-summary .social-invite{
+	width: 30%;
+}
+.package-summary .invite-form input{
+	width: 100%;
+	padding: 15px 10px;
+	font-size: 14px;
+}
+.package-summary .invite-url{
+	position: relative;
+}
+.package-summary .invite-link{
+	position: absolute;
+	top: -13px;
+    left: 13px;
+}
+.package-summary .invite-link span{
+	font-size: 14px;
+	color: #4B4B4B;
+	background: #fff;
+	padding: 5px;
+}
+.package-summary .copy-clipboard{
+	position: absolute;
+	top: 30%;
+    left: 92%;
+}
+.package-summary .copy-clipboard span{
+	color: 4B4B4B;
+}
+.package-summary .social-invite a{
+	font-size: 26px;
+	margin: 0 5px;
+	color: #1B6CB4;
+}
+.package-summary .social-invite .whatsapp{
+	color: #2DC357 !important;
+}
+.package-summary .invite-title h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	color: #4B4B4B;
+}
+.package-summary .invite-title p{
+	font-size: 16px;
+	color: #4B4B4B;
+}
+.package-summary .invite-title h3{
+	font-size: 30px;
+	color: #1B6CB4;
+	margin-top: 50px;
+	margin-bottom: 35px;
+}
+
+
+.active{
+	background: red !important;
+}
+/*.view-pack{
+	display: none;
+}
+.selected-pack{
+	display: none;
+}*/
