@@ -1176,6 +1176,19 @@ section{
 	font-size: 18px;
 	color: #1B6CB4;
 }
+.package-summary .cancel-option .change-plan-btn{
+	position: absolute;
+    top: 38%;
+    left: 71%;
+}
+.package-summary .cancel-option .change-plan-btn a{
+	font-size: 18px;
+	color: #fff;
+	background: #137DC3;
+	border-radius: 5px;
+	padding: 15px;
+	border: 3px solid #137DC3;
+}
 .package-summary .promo-content span{
 	font-size: 18px;
 	font-weight: 600;

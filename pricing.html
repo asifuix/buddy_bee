@@ -114,7 +114,7 @@
                 <p>Live session 1 Hour</p>
                 <p>All document Check in Live Session</p>
                 <p>Course Advice as per your profile</p>
-                <button id="buy-now">Buy now</button>
+                <button id="buy-now-1">Buy now</button>
               </div>
             </div>
             <div class="col-md-4 standard" id="standard">
@@ -125,7 +125,7 @@
                 <p>Up to 10 times talk with consultant</p>
                 <p>Full guildance  to your success</p>
                 <p>Career & Course advice free</p>
-                <button>Buy now</button>
+                <button id="buy-now-2">Buy now</button>
               </div>
             </div>
             <div class="col-md-4 premium" id="premium">
@@ -136,7 +136,7 @@
                 <p>2 Hours Session with  consultant</p>
                 <p>Check all documents before live</p>
                 <p>24/7 Support from  us</p>
-                <button>Buy now</button>
+                <button id="buy-now-3">Buy now</button>
               </div>
             </div>
           </div>
@@ -144,7 +144,7 @@
       </div>
     </section>
 
-    <section class="checkout text-center">
+    <section class="checkout text-center position-relative">
       <div class="container">
         <div class="row">
           <div class="col-md-3"></div>
@@ -208,6 +208,9 @@
               <div class="cancel-option d-flex justify-content-between">
                 <span><i class="fas fa-check-circle"></i><b class="ms-2">Buy with Confidence:</b> cancel at any time</span>
                 <span><i class="fas fa-info-circle"></i></span>
+                <div class="change-plan-btn">
+                  <a href="#">Change plan</a>
+                </div>
               </div>
               <div class="promo">
                 <form action="">
@@ -313,5 +316,41 @@
     <script src="js/owl.carousel.min.js"></script>
     <!-- wow js -->
     <script src="js/wow.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $("#basic,#standard,#premium").click(function(){
+          $("#selected-pack").hide(function(){
+            $("#view-pack").show();
+          });
+        });
+        $("#buy-now-1,#buy-now-2,#buy-now-3").click(function(){
+          $("#view-pack").hide(function(){
+            $("#selected-pack").show();
+          });
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function(){
+        $("#basic").click(function(){
+          $("#basic").addClass("active");
+          $("#standard").removeClass("active");
+          $("#premium").removeClass("active");
+        });
+        $("#standard").click(function(){
+          $("#basic").removeClass("active");
+          $("#standard").addClass("active");
+          $("#premium").removeClass("active");
+        });
+        $("#premium").click(function(){
+          $("#basic").removeClass("active");
+          $("#standard").removeClass("active");
+          $("#premium").addClass("active");
+        });
+      });
+    </script>
+
   </body>
 </html>

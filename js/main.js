@@ -83,5 +83,4 @@ $(document).ready(function(){
 
   // process circle js
   $('.circlechart').circlechart();
-
 });
