@@ -1178,7 +1178,6 @@ section{
 }
 .package-summary .cancel-option .change-plan-btn{
 	position: absolute;
-    top: 38%;
     left: 71%;
 }
 .package-summary .cancel-option .change-plan-btn a{
@@ -1287,4 +1286,7 @@ section{
 	transition: 0.5s ease-in-out;
 	cursor: pointer;
 	transform: scale(1.1);
+}
+.pricing-package .active .pricing-text{
+	opacity: 1;
 }

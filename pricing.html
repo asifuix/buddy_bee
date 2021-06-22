@@ -144,7 +144,7 @@
       </div>
     </section>
 
-    <section class="checkout text-center position-relative">
+    <section class="checkout text-center">
       <div class="container">
         <div class="row">
           <div class="col-md-3"></div>
@@ -170,6 +170,9 @@
               <div class="cancel-option d-flex justify-content-between">
                 <span><i class="fas fa-check-circle"></i><b class="ms-2">Buy with Confidence:</b> cancel at any time</span>
                 <span><i class="fas fa-info-circle"></i></span>
+                <div class="change-plan-btn">
+                  <a href="#">Change plan</a>
+                </div>
               </div>
               <div class="promo">
                 <form action="">
@@ -312,11 +315,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- custom js-->
     <script src="js/main.js"></script>
-    <!-- owl carousel -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- wow js -->
-    <script src="js/wow.min.js"></script>
-
+    <!-- card tab switch -->
     <script>
       $(document).ready(function(){
         $("#basic,#standard,#premium").click(function(){
@@ -332,6 +331,7 @@
       });
     </script>
 
+    <!-- card active class -->
     <script>
       $(document).ready(function(){
         $("#basic").click(function(){

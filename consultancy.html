@@ -12,13 +12,6 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
-    <!-- Owl Stylesheets -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-    <!-- wow css -->
-    <link rel="stylesheet" href="css/animate.css">
-
     <!-- calender css -->
     <link rel="stylesheet" href="css/mini-event-calendar.min.css">
 
@@ -787,16 +780,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- custom js-->
     <script src="js/main.js"></script>
-    <!-- owl carousel -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- wow js -->
-    <script src="js/wow.min.js"></script>
     <!-- calender js -->
     <script src="js/mini-event-calendar.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#calendar").MEC();
+      });
+    </script>
     <!-- countdown js -->
     <script src="js/jquery.countdown.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('#countdown').countdown('2040/01/01', function(event) {
+          $(this).html(event.strftime('<div class="single-count"><h1>%d</h1><span>Days</span></div> <div class="single-count"><h1>%H</h1><span>Hours</span></div> <div class="single-count"><h1>%M</h1><span>Minute</span></div> <div class="single-count"><h1>%S</h1><span>Second</span></div>'));
+        });
+      });
+    </script>
     <!-- process circle js -->
     <script src="js/progresscircle.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.circlechart').circlechart();
+      });
+    </script>
 
   </body>
 </html>
