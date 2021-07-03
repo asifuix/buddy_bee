@@ -1290,3 +1290,245 @@ section{
 .pricing-package .active .pricing-text{
 	opacity: 1;
 }
+/* student profile css here */
+.student-intro-text h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 34px;
+	font-weight: 700;
+	color: #3D3434;
+	margin-bottom: 20px;
+}
+.student-email{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}
+.student-number{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}
+.student-badge-btn{
+	background: #1B6CB4;
+	color: #fff;
+	font-size: 12px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	display: inline-block !important;
+	margin-top: 30px;
+}
+.selected-program-title span{
+	font-size: 14px;
+	color: #8C97AC;
+}
+.master-badge{
+	background: #0FBC491A;
+	color: #0FBC49;
+	font-size: 12px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	display: inline-block !important;
+}
+.selected-program-content h6{
+	font-size: 16px;
+	font-weight: 600;
+	color: #1D293F;
+	margin-bottom: 20px;
+}
+.selected-program-content p{
+	font-size: 14px;
+}
+.stage-step span{
+	font-size: 14px;
+	color: #8C97AC;
+}
+.stage-box-heading span:nth-child(1){
+	font-size: 14px;
+	color: #8C97AC;
+}
+.stage-box h6{
+	font-size: 22px;
+	font-weight: 600;
+	color: #1D293F;
+}
+.stage-box p{
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.complete-documents i{
+	font-size: 30px;
+	color: #5AD48B;
+}
+.pending-documents i{
+	font-size: 30px;
+	color: #E8454E;
+}
+.next-documents i{
+	font-size: 30px;
+	color: #50B3DE;
+}
+.upload-text P{
+	font-size: 14px;
+	font-weight: 600;
+	color: #1D293F;
+	margin-bottom: 3px;
+}
+.upload-text span{
+	font-size: 10px;
+	color: #8C97AC;
+}
+.infograph{
+	position: relative;
+	height: 245px;
+}
+.infograph .circle{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	z-index: 1;
+}
+.infograph .outer-circle{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	background: #fff;
+	border: 5px #1B6CB4;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	border-radius: 50%;
+	transform: rotate(45deg);
+	box-sizing: border-box;
+}
+.infograph .inner-circle{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	background: #1B6CB4;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+}
+.infograph .inner-circle span{
+	display: block;
+	text-align: center;
+	line-height: 120px;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.infograph .line{
+	position: absolute;
+	width: 5px;
+	height: 100%;
+	background: #1b6cb4;
+	top: 0px;
+	left: 125px;
+}
+.infograph .line:before{
+	content: "";
+	position: absolute;
+	background: #1b6cb4;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top: -5px;
+	left: -7px;
+}
+.infograph .line:after{
+	content: "";
+	position: absolute;
+	background: #1b6cb4;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top: 238px;
+	left: -8px;
+}
+.infograph p{
+	font-size: 12px;
+	font-weight: 600;
+}
+.infograph p span{
+	font-size: 12px;
+	color: #1b6cb4;
+}
+.infograph .process-icon{
+	position: absolute;
+	top: 115px;
+	left: 0;
+}
+.infograph .process-icon .done{
+	color: #5AD48B;
+}
+.infograph .process-icon .undone{
+	color: #E8454E;
+}
+.process-icon i{
+	font-size: 30px;
+}
+.upload i{
+	font-size: 22px;
+	color: #92E3A9;
+}
+.upload a{
+	font-size: 12px;
+	background: #F6F1F1;
+	color: #818181;
+	padding: 5px 15px;
+	display: inline-block !important;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+.infograph .eta{
+	position: absolute;
+	top: 20px;
+	left: 0;
+}
+.infograph .expire-date{
+	position: absolute;
+	top: 0;
+	left: 150px;
+}
+.infograph .upload{
+	position: absolute;
+	top: 50px;
+	left: 200px;
+}
+.infograph .deadline{
+	position: absolute;
+	top: 140px;
+	left: 210px;
+}
+.infograph .processing-time{
+	position: absolute;
+	top: 215px;
+	left: 145px;
+}
+.documents-required h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+	font-weight: 500;
+	color: #818181;
+}
+.documents-required h6{
+	font-size: 16px;
+	font-weight: 500;
+	color: #818181;
+}
+.documents-required-content .youtube-popup a{
+	font-size: 60px;
+	color: #D43C3C;
+}
+.documents-required-content .checklists span{
+	font-size: 14px;
+	color: #818181;
+}
+.documents-required-content .read-more a{
+	background: #1D5B9E;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block !important;
+}
