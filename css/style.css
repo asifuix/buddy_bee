@@ -1355,16 +1355,34 @@ section{
 	margin-bottom: 10px;
 }
 .complete-documents i{
-	font-size: 30px;
-	color: #5AD48B;
+	font-size: 15px;
+	background: #5AD48B;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
 }
 .pending-documents i{
-	font-size: 30px;
-	color: #E8454E;
+	font-size: 15px;
+	background: #E8454E;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
 }
 .next-documents i{
-	font-size: 30px;
-	color: #50B3DE;
+	font-size: 15px;
+	background: #50B3DE;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
 }
 .upload-text P{
 	font-size: 14px;
@@ -1386,12 +1404,56 @@ section{
 	left: 50px;
 	z-index: 1;
 }
+/* green infographic */
+.infograph .green-border{
+	border-color: #76C662;
+}
+.infograph .green-fill{
+	background: #76C662;
+}
+.infograph .green-fill::before,.infograph .green-fill::after{
+	background: #76C662;
+}
+/* green infographic */
+/* blue infographic */
+.infograph .blue-border{
+	border-color: #1B6CB4;
+}
+.infograph .blue-fill{
+	background: #1B6CB4;
+}
+.infograph .blue-fill::before,.infograph .blue-fill::after{
+	background: #1B6CB4;
+}
+/* blue infographic */
+/* tomato infographic */
+.infograph .tomato-border{
+	border-color: #FF947D;
+}
+.infograph .tomato-fill{
+	background: #FF947D;
+}
+.infograph .tomato-fill::before,.infograph .tomato-fill::after{
+	background: #FF947D;
+}
+/* tomato infographic */
+/* yellow infographic */
+.infograph .yellow-border{
+	border-color: #FFAB17;
+}
+.infograph .yellow-fill{
+	background: #FFAB17;
+}
+.infograph .yellow-fill::before,.infograph .yellow-fill::after{
+	background: #FFAB17;
+}
+/* yellow infographic */
 .infograph .outer-circle{
 	position: absolute;
 	width: 150px;
 	height: 150px;
 	background: #fff;
-	border: 5px #1B6CB4;
+	border-width: 5px;
 	border-top-style: solid;
 	border-right-style: solid;
 	border-bottom-style: dashed;
@@ -1404,7 +1466,6 @@ section{
 	position: absolute;
 	top: 15px;
 	left: 15px;
-	background: #1B6CB4;
 	height: 120px;
 	width: 120px;
 	border-radius: 50%;
@@ -1415,20 +1476,19 @@ section{
 	line-height: 120px;
 	color: #fff;
 	font-family: sans-serif;
-	font-size: 20px;
+	font-size: 16px;
+	letter-spacing: 1px;
 }
 .infograph .line{
 	position: absolute;
 	width: 5px;
 	height: 100%;
-	background: #1b6cb4;
 	top: 0px;
 	left: 125px;
 }
 .infograph .line:before{
 	content: "";
 	position: absolute;
-	background: #1b6cb4;
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
@@ -1438,7 +1498,6 @@ section{
 .infograph .line:after{
 	content: "";
 	position: absolute;
-	background: #1b6cb4;
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
@@ -1459,19 +1518,39 @@ section{
 	left: 0;
 }
 .infograph .process-icon .done{
-	color: #5AD48B;
+	background: #5AD48B;
 }
 .infograph .process-icon .undone{
-	color: #E8454E;
+	background: #E8454E;
 }
 .process-icon i{
-	font-size: 30px;
+	font-size: 15px;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
 }
 .upload i{
 	font-size: 22px;
 	color: #92E3A9;
 }
 .upload a{
+	font-size: 12px;
+	background: #F6F1F1;
+	color: #818181;
+	padding: 5px 15px;
+	display: inline-block !important;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+.infograph .delete{
+	position: absolute;
+	top: 20px;
+	left: 0;
+}
+.infograph .delete a{
 	font-size: 12px;
 	background: #F6F1F1;
 	color: #818181;
@@ -1499,6 +1578,20 @@ section{
 	position: absolute;
 	top: 140px;
 	left: 210px;
+}
+.infograph .edit{
+	position: absolute;
+	top: 175px;
+	left: 210px;
+}
+.infograph .edit a{
+	font-size: 12px;
+	background: #F6F1F1;
+	color: #818181;
+	padding: 5px 20px;
+	display: inline-block !important;
+	border-radius: 5px;
+	margin-left: 5px;
 }
 .infograph .processing-time{
 	position: absolute;
