@@ -1394,9 +1394,13 @@ section{
 	font-size: 10px;
 	color: #8C97AC;
 }
+.document-bg{
+	background: #6d93a21a;
+}
 .infograph{
 	position: relative;
 	height: 245px;
+	background: #fff;
 }
 .infograph .circle{
 	position: absolute;
@@ -1561,7 +1565,7 @@ section{
 }
 .infograph .eta{
 	position: absolute;
-	top: 20px;
+	top: 30px;
 	left: 0;
 }
 .infograph .expire-date{
