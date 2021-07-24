@@ -577,11 +577,11 @@ section{
 }
 
 /*consultancy page css here*/
-.consultant .calender h4{
+.calender h4{
 	color: #818181;
 	text-align: center;
 }
-.consultant .calender a{
+.calender a{
 	display: block;
 	color: #94D1E7;
 	text-align: center;
@@ -1628,4 +1628,177 @@ section{
     padding: 10px 20px;
     border-radius: 5px;
     display: inline-block !important;
+}
+.consultant-profile .side-bar ul li{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #818181;
+	margin: 5px 0;
+	padding: 10px 0;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.consultant-profile .side-bar ul li:hover{
+	background: #1D5B9E;
+	color: #fff;
+	transition: 0.5s ease-in-out;
+	cursor: pointer;
+}
+.consultant-profile .side-bar ul li i{
+	width: 50px;
+	text-align: center;
+}
+.consultant-profile-details-img{
+	position: relative;
+}
+.consultant-profile-details-img img{
+	border-radius: 50%;
+}
+.consultant-profile-details-img .upload-pp{
+	position: absolute;
+    top: 125px;
+    left: 130px;
+    background: #C4C4C4;
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+}
+.consultant-profile-details-text .review-badge .review{
+	color: #FEDA14;
+	font-size: 18px;
+}
+.consultant-profile-details-text .review-badge .rate-badge{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	background: #1D5B9E;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 6px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.consultant-profile-details-text h2{
+	font-size: 32px;
+	color: #424347;
+	margin-top: 15px;
+}
+.consultant-profile-details-text p{
+	font-size: 14px;
+	color: #424347;
+}
+.consultant-profile-details-text .hash-btn .hash-id{
+	font-size: 18px;
+	font-weight: 500;
+	color: #FBBC19;
+	background: #fff;
+	border: 2px solid #FBBC19;
+	padding: 10px 25px;
+	border-radius: 6px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.consultant-profile-details-text .hash-btn .book-btn{
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+	background: #1D5B9E;
+	border: 2px solid #1D5B9E;
+	padding: 10px 40px;
+	border-radius: 6px;
+	display: inline-block;
+}
+.consultant-dropdown .availability-content h6{
+	display: inline-block;
+}
+.consultant-dropdown .dropdown{
+	display: inline-block;
+	border: 1px solid #818181;
+	border-radius: 3px;
+}
+.availability-title h6,.topic-title h6,.session-title h6,.schedule-title h6{
+	width: 100px;
+	margin-bottom: 0;
+	color: #373A37;
+}
+.availability-content h6{
+	color: #818181;
+}
+.consultant-dropdown .btn{
+	font-size: 14px;
+	padding: 3px;
+	color: #818181;
+}
+.consultant-dropdown .dropdown-item{
+	color: #818181;
+}
+.consultant-dropdown .dropdown-item:hover{
+	background: #1d5b9e;
+	color: #fff;
+}
+.consultant-dropdown i{
+	font-size: 22px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.availability-content span{
+	font-size: 14px;
+	background: #1D5B9E;
+	padding: 5px 10px;
+	border-radius: 25px;
+	color: #fff;
+	display: inline-block;
+	margin-left: 5px;
+}
+.topic-content i{
+	color: #76C662;
+}
+.session-content i{
+	color: #818181;
+}
+.schedule-content i{
+	color: #1D5B9E;
+}
+.consultant-summary-review span{
+	text-transform: uppercase;
+	color: #373A37;
+	line-height: 26px;
+	font-weight: 500;
+}
+.consultant-summary-review span b{
+	font-size: 26px;
+}
+.consultant-summary-review .summary-review a{
+	background: #fff;
+	color: #1D5B9E;
+	display: inline-block;
+	margin-bottom: -1px;
+	font-weight: 600;
+}
+.consultant-summary-review .summary-review .active{
+	color: #373A37;
+	border: 1px solid #373A37;
+	border-bottom: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 5px 10px;
+}
+.consultant-summary-review hr{
+	margin-top: 0;
+	background: #373A37;
+	opacity: 1;
+}
+.consultant-summary-review .summary-des h6{
+	font-size: 18px;
+	color: #1D5B9E;
+	margin-top: 35px;
+}
+.consultant-summary-review .summary-des p{
+	font-size: 14px;
+	line-height: 22px;
+	color: #373A37;
 }

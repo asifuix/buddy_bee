@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- calender css -->
+    <link rel="stylesheet" href="css/mini-event-calendar.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Buddy Bee</title>
+  </head>
+
+  <body>
+    <nav class="nav-menu">
+      <div class="topbar">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+              <div class="searchbar">
+                <div class="searchbar-content">
+                  <input type="text" placeholder="Start Your Search">
+                  <a href="#"><i class="fas fa-search"></i></a>
+                </div>
+              </div>
+              <div class="small-menu">
+                <div class="navbar-nav ms-auto">
+                    <a class="my-auto calendar" href="#"><i class="far fa-calendar-alt"></i></a>
+                  <div class="dropdown my-auto">
+                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">English</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a href="#">German</a></li>
+                      <li><a href="#">Spanish</a></li>
+                      <li><a href="#">French</a></li>
+                    </ul>
+                  </div>
+                    <a class="my-auto login" href="#">Log In</a>
+                    <a class="my-auto signup" href="#">Sign Up</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="menubar">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Get Consultancy</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Upcoming Event</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Be a Consultant</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Community</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ielts Guideline</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">IELTS</a></li>
+                      <li><a class="dropdown-item" href="#">TOFEL</a></li>
+                      <li><a class="dropdown-item" href="#">GRE</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </nav>
+
+    <section class="consultant-profile">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 side-bar">
+            <ul>
+              <li><i class="fas fa-users"></i><span>All Consultant</span></li>
+              <li><i class="fas fa-microphone"></i><span>Test Your Connection</span></li>
+              <li><i class="fas fa-cart-arrow-down"></i><span>View Booking Qty</span></li>
+              <li><i class="fas fa-headset"></i><span>Help & Support</span></li>
+              <li><i class="fas fa-server"></i><span>User Management</span></li>
+              <li><i class="far fa-user"></i><span>Consultant Profile</span></li>
+              <li><i class="fas fa-tasks"></i><span>Access Management</span></li>
+            </ul>
+          </div>
+          <div class="col-md-6 consultant-profile-summary">
+            <div class="row consultant-profile-details">
+              <div class=" col-md-4 consultant-profile-details-img">
+                <img src="images/consultant-img-1.png" alt="consultant-img" class="img-fluid">
+                <div class="upload-pp">
+                  <i class="fas fa-camera"></i>
+                </div>
+              </div>
+              <div class=" col-md-8 consultant-profile-details-text">
+                <div class="review-badge">
+                  <span class="review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                  <span class="rate-badge">$45/hr</span>
+                </div>
+                <h2>Amy Demchak Connell</h2>
+                <p>Economics Consultant & Course Selection Coordinator</p>
+                <div class="hash-btn">
+                  <a href="#"><span class="hash-id">TU20021</span></a>
+                  <a href="#"><span class="book-btn">Book Now</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="consultant-summary-review mt-5">
+              <span>Consultant<br><b>Details</b></span>
+              <div class="summary-review mt-4">
+                <a href="#" class="active me-1">Summary</a>
+                <a href="#">Review</a>
+              </div>
+              <hr>
+              <div class="consultant-video-intro">
+                <iframe width="100%" height="307" src="https://www.youtube.com/embed/pMXKrJbW-v8?autoplay=1&mute=1;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="summary-des">
+                <h6>Amy Demchak Connell</h6>
+                <p>Hello friends! My name is Amy and I am so excited for this opportunity to help you on your journey to study abroad. It is my belief that pursuing foreign degree is one of the best life choices that you can make. And I want to be a part of it! Let’s get started!</p>
+
+                <h6>Work Experience</h6>
+                <p>I have worked many roles. Including but not limited to job titles of: Service technician, Oral Surgeons Assistant, Bee specialist, Dental Assistant.</p>
+
+                <h6>Education</h6>
+                <p>I have worked many roles. Including but not limited to job titles of: Service technician, Oral Surgeons Assistant, Bee specialist, Dental Assistant.</p>
+
+                <h6>Experience</h6>
+                <p>05 years </p>
+
+                <h6>Skills</h6>
+                <p>Communicative, problem Solving, Team Player, Plannning and Organizing, System Knowledge</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="consultant-dropdown">
+              <div class="availability d-flex align-items-center my-3">
+                <div class="availability-title">
+                  <h6>Availability</h6>
+                </div>
+                <div class="availability-content">
+                  <h6>Full Time</h6>
+                  <span>Available</span>
+                </div>
+              </div>
+              <div class="topic d-flex align-items-center my-3">
+                <div class="topic-title">
+                  <h6>Topic</h6>
+                </div>
+                <div class="topic-content">
+                  <span><i class="fas fa-check-square"></i></span>
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Select Topic
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Study In Germany</a></li>
+                      <li><a class="dropdown-item" href="#">Study In England</a></li>
+                      <li><a class="dropdown-item" href="#">Study In Denmark</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="session d-flex align-items-center my-3">
+                <div class="session-title">
+                  <h6>Session</h6>
+                </div>
+                <div class="session-content">
+                  <span><i class="fas fa-check-square"></i></span>
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Select Session
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Winter</a></li>
+                      <li><a class="dropdown-item" href="#">Fall</a></li>
+                      <li><a class="dropdown-item" href="#">Summer</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="schedule d-flex align-items-center my-3">
+                <div class="schedule-title">
+                  <h6>Schedule</h6>
+                </div>
+                <div class="schedule-content">
+                  <span><i class="fas fa-calendar-day"></i></span>
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      DD/MM/YYYY
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">24/08/2021</a></li>
+                      <li><a class="dropdown-item" href="#">25/08/2021</a></li>
+                      <li><a class="dropdown-item" href="#">26/08/2021</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="calender mt-5">
+              <h4>Schedule</h4>
+              <div id="calendar"></div>
+              <a href="#">Show All Time</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="download-app">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 my-auto">
+              <div class="download-app-content">
+                <span>Buddybee on the go</span>
+                <p>Start or schedule  consultants anytime, anywhere with Android and iPhone apps</p>
+                <div class="download-store">
+                  <a href="#" target="_blank"><img src="images/app-store.png" alt="app-store"></a>
+                  <a href="#" target="_blank"><img src="images/google-play.png" alt="google-play"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="download-app-img">
+              <img src="images/video-call.png" alt="video-call">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="d-flex justify-content-between m-0">
+                <li><a href="#">Copyright</a></li>
+                <li><a href="#">&copy;2021 Buddybee</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">Mission Statement</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- back to top btn -->
+    <a id="back-top"><i class="fas fa-chevron-up"></i></a>
+    <!-- back to top btn -->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- custom js-->
+    <script src="js/main.js"></script>
+    <!-- calender js -->
+    <script src="js/mini-event-calendar.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#calendar").MEC();
+      });
+    </script>
+  </body>
+</html>
