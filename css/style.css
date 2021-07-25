@@ -1772,15 +1772,17 @@ section{
 .consultant-summary-review span b{
 	font-size: 26px;
 }
-.consultant-summary-review .summary-review a{
+.consultant-summary-review .summary-review span{
 	background: #fff;
-	color: #1D5B9E;
+	color: #373A37;
 	display: inline-block;
 	margin-bottom: -1px;
 	font-weight: 600;
-}
-.consultant-summary-review .summary-review .active{
-	color: #373A37;
+	cursor: pointer;
+	text-transform: capitalize;
+} 
+.tab-active{
+	color: #1D5B9E !important;
 	border: 1px solid #373A37;
 	border-bottom: 0;
 	border-top-left-radius: 5px;
@@ -1801,4 +1803,49 @@ section{
 	font-size: 14px;
 	line-height: 22px;
 	color: #373A37;
+}
+.consultant-summary-review .reviwer-review{
+	border-top: 1px solid #eae5e5;
+	border-bottom: 1px solid #eae5e5;
+	margin: 30px 0;
+	padding: 25px 0;
+}
+.consultant-summary-review .reviewer-img img{
+	border: 3px solid #18A0FB;
+	border-radius: 50%;
+}
+.consultant-summary-review .reviewer-img img{
+	border: 3px solid #18A0FB;
+	border-radius: 50%;
+}
+.consultant-summary-review .reviewer-intro h6{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+    color: #373A37;
+	margin: 0;
+}
+.consultant-summary-review .reviewer-intro p{
+	font-size: 14px;
+    line-height: 22px;
+	font-weight: 500;
+    color: #373A37;
+	margin: 3px 0;
+}
+.consultant-summary-review .reviewer-intro span{
+	color: #FEDA14;
+    font-size: 16px;
+}
+.consultant-summary-review .review h6{
+	font-size: 15px;
+	line-height: 24px;
+	font-style: italic;
+	font-weight: 600;
+    color: #373A37;
+}
+.consultant-summary-review .review p{
+	font-size: 14px;
+    line-height: 22px;
+    color: #373A37;
+	margin: 0;
 }
