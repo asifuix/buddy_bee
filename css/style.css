@@ -1804,6 +1804,9 @@ section{
 	line-height: 22px;
 	color: #373A37;
 }
+.consultant-summary-review .review-content{
+	display: none;
+}
 .consultant-summary-review .reviwer-review{
 	border-top: 1px solid #eae5e5;
 	border-bottom: 1px solid #eae5e5;
