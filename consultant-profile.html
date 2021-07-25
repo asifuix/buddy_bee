@@ -100,13 +100,13 @@
         <div class="row">
           <div class="col-md-3 side-bar">
             <ul>
-              <li><i class="fas fa-users"></i><span>All Consultant</span></li>
-              <li><i class="fas fa-microphone"></i><span>Test Your Connection</span></li>
-              <li><i class="fas fa-cart-arrow-down"></i><span>View Booking Qty</span></li>
-              <li><i class="fas fa-headset"></i><span>Help & Support</span></li>
-              <li><i class="fas fa-server"></i><span>User Management</span></li>
-              <li><i class="far fa-user"></i><span>Consultant Profile</span></li>
-              <li><i class="fas fa-tasks"></i><span>Access Management</span></li>
+              <a href=""><li><i class="fas fa-users"></i><span>All Consultant</span></li></a>
+              <a href=""><li><i class="fas fa-microphone"></i><span>Test Your Connection</span></li></a>
+              <a href=""><li><i class="fas fa-cart-arrow-down"></i><span>View Booking Qty</span></li></a>
+              <a href=""><li><i class="fas fa-headset"></i><span>Help & Support</span></li></a>
+              <a href=""><li><i class="fas fa-server"></i><span>User Management</span></li></a>
+              <a href="consultant-profile.html"><li><i class="far fa-user"></i><span>Consultant Profile</span></li></a>
+              <a href=""><li><i class="fas fa-tasks"></i><span>Access Management</span></li></a>
             </ul>
           </div>
           <div class="col-md-6 consultant-profile-summary">
@@ -133,28 +133,86 @@
             <div class="consultant-summary-review mt-5">
               <span>Consultant<br><b>Details</b></span>
               <div class="summary-review mt-4">
-                <a href="#" class="active me-1">Summary</a>
-                <a href="#">Review</a>
+                <span class="tab-active me-1" id="summary">Summary</span>
+                <span id="review">Review</span>
               </div>
               <hr>
-              <div class="consultant-video-intro">
-                <iframe width="100%" height="307" src="https://www.youtube.com/embed/pMXKrJbW-v8?autoplay=1&mute=1;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="summary-content" id="summary-content">
+                <div class="consultant-video-intro">
+                  <iframe width="100%" height="307" src="https://www.youtube.com/embed/pMXKrJbW-v8?autoplay=1&mute=1;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="summary-des">
+                  <h6>Amy Demchak Connell</h6>
+                  <p>Hello friends! My name is Amy and I am so excited for this opportunity to help you on your journey to study abroad. It is my belief that pursuing foreign degree is one of the best life choices that you can make. And I want to be a part of it! Let’s get started!</p>
+  
+                  <h6>Work Experience</h6>
+                  <p>I have worked many roles. Including but not limited to job titles of: Service technician, Oral Surgeons Assistant, Bee specialist, Dental Assistant.</p>
+  
+                  <h6>Education</h6>
+                  <p>I have worked many roles. Including but not limited to job titles of: Service technician, Oral Surgeons Assistant, Bee specialist, Dental Assistant.</p>
+  
+                  <h6>Experience</h6>
+                  <p>05 years </p>
+  
+                  <h6>Skills</h6>
+                  <p>Communicative, problem Solving, Team Player, Plannning and Organizing, System Knowledge</p>
+                </div>
               </div>
-              <div class="summary-des">
-                <h6>Amy Demchak Connell</h6>
-                <p>Hello friends! My name is Amy and I am so excited for this opportunity to help you on your journey to study abroad. It is my belief that pursuing foreign degree is one of the best life choices that you can make. And I want to be a part of it! Let’s get started!</p>
-
-                <h6>Work Experience</h6>
-                <p>I have worked many roles. Including but not limited to job titles of: Service technician, Oral Surgeons Assistant, Bee specialist, Dental Assistant.</p>
-
-                <h6>Education</h6>
-                <p>I have worked many roles. Including but not limited to job titles of: Service technician, Oral Surgeons Assistant, Bee specialist, Dental Assistant.</p>
-
-                <h6>Experience</h6>
-                <p>05 years </p>
-
-                <h6>Skills</h6>
-                <p>Communicative, problem Solving, Team Player, Plannning and Organizing, System Knowledge</p>
+              <div class="review-content" id="review-content">
+                <div class="row reviwer-review">
+                  <div class="col-md-5 reviewer">
+                      <dv class="row">
+                        <div class="col-md-4 reviewer-img">
+                          <img src="images/consultant-big-1.png" alt="reviwer-img" class="img-fluid">
+                        </div>
+                        <div class="col-md-8 reviewer-intro">
+                          <h6>Emmy Watson</h6>
+                          <p>Cheif Exicutive, Mecroso</p>
+                          <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                        </div>
+                      </dv>
+                  </div>
+                  <div class="col-md-7 review">
+                    <h6>Congratulations! Amazing Work, Good Luck with sale</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsa nemo eligendi necessitatibus nostrum inventore doloremque quis.</p>
+                  </div>
+                </div>
+                <div class="row reviwer-review">
+                  <div class="col-md-5 reviewer">
+                      <dv class="row">
+                        <div class="col-md-4 reviewer-img">
+                          <img src="images/consultant-big-1.png" alt="reviwer-img" class="img-fluid">
+                        </div>
+                        <div class="col-md-8 reviewer-intro">
+                          <h6>Emmy Watson</h6>
+                          <p>Cheif Exicutive, Mecroso</p>
+                          <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                        </div>
+                      </dv>
+                  </div>
+                  <div class="col-md-7 review">
+                    <h6>Congratulations! Amazing Work, Good Luck with sale</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsa nemo eligendi necessitatibus nostrum inventore doloremque quis.</p>
+                  </div>
+                </div>
+                <div class="row reviwer-review">
+                  <div class="col-md-5 reviewer">
+                      <dv class="row">
+                        <div class="col-md-4 reviewer-img">
+                          <img src="images/consultant-big-1.png" alt="reviwer-img" class="img-fluid">
+                        </div>
+                        <div class="col-md-8 reviewer-intro">
+                          <h6>Emmy Watson</h6>
+                          <p>Cheif Exicutive, Mecroso</p>
+                          <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                        </div>
+                      </dv>
+                  </div>
+                  <div class="col-md-7 review">
+                    <h6>Congratulations! Amazing Work, Good Luck with sale</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsa nemo eligendi necessitatibus nostrum inventore doloremque quis.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -224,7 +282,7 @@
                 </div>
               </div>
             </div>
-            <div class="calender mt-5">
+            <div class="calender mt-5" id="calender">
               <h4>Schedule</h4>
               <div id="calendar"></div>
               <a href="#">Show All Time</a>
@@ -290,6 +348,36 @@
     <script>
       $(document).ready(function(){
         $("#calendar").MEC();
+      });
+    </script>
+    <!-- tab active class -->
+    <script>
+      $(document).ready(function(){
+        $("#summary").click(function(){
+          $("#summary").addClass("tab-active");
+          $("#review").removeClass("tab-active");
+        });
+        $("#review").click(function(){
+          $("#review").addClass("tab-active");
+          $("#summary").removeClass("tab-active");
+        });
+      });
+    </script>
+    <!-- tab switch -->
+    <script>
+      $(document).ready(function(){
+        $("#summary").click(function(){
+          $("#review-content").hide(function(){
+            $("#summary-content").show();
+            $("#calender").show();
+          });
+        });
+        $("#review").click(function(){
+          $("#summary-content").hide(function(){
+            $("#review-content").show();
+            $("#calender").hide();
+          });
+        });
       });
     </script>
   </body>
