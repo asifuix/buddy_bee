@@ -100,13 +100,13 @@
         <div class="row">
           <div class="col-md-3 side-bar">
             <ul>
-              <a href=""><li><i class="fas fa-users"></i><span>All Consultant</span></li></a>
-              <a href=""><li><i class="fas fa-microphone"></i><span>Test Your Connection</span></li></a>
-              <a href=""><li><i class="fas fa-cart-arrow-down"></i><span>View Booking Qty</span></li></a>
-              <a href=""><li><i class="fas fa-headset"></i><span>Help & Support</span></li></a>
-              <a href=""><li><i class="fas fa-server"></i><span>User Management</span></li></a>
-              <a href="consultant-profile.html"><li><i class="far fa-user"></i><span>Consultant Profile</span></li></a>
-              <a href=""><li><i class="fas fa-tasks"></i><span>Access Management</span></li></a>
+              <li><a href="#"><i class="fas fa-users"></i><span>All Consultant</span></a></li>
+              <li><a href="#"><i class="fas fa-microphone"></i><span>Test Your Connection</span></a></li>
+              <li><a href="#"><i class="fas fa-cart-arrow-down"></i><span>View Booking Qty</span></a></li>
+              <li><a href="#"><i class="fas fa-headset"></i><span>Help & Support</span></a></li>
+              <li><a href="#"><i class="fas fa-server"></i><span>User Management</span></a></li>
+              <li class="sidebar-active"><a href="consultant-profile.html"><i class="far fa-user"></i><span>Consultant Profile</span></a></li>
+              <li><a href="#"><i class="fas fa-tasks"></i><span>Access Management</span></a></li>
             </ul>
           </div>
           <div class="col-md-6 consultant-profile-summary">
@@ -348,6 +348,15 @@
     <script>
       $(document).ready(function(){
         $("#calendar").MEC();
+      });
+    </script>
+    <!-- sidebar-active -->
+    <script>
+      $(document).ready(function(){
+        $(".side-bar ul li a").click(function() {
+        $(".side-bar ul li").removeClass('sidebar-active');
+          $(this).parent().addClass('sidebar-active');
+        });
       });
     </script>
     <!-- tab active class -->
