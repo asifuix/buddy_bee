@@ -1629,7 +1629,9 @@ section{
     border-radius: 5px;
     display: inline-block !important;
 }
-.consultant-profile .side-bar ul li{
+/* consultant profile css */
+.consultant-profile .side-bar ul li a{
+	display: block;
 	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
@@ -1639,11 +1641,15 @@ section{
 	border-top-right-radius: 50px;
 	border-bottom-right-radius: 50px;
 }
-.consultant-profile .side-bar ul li:hover{
+.consultant-profile .side-bar ul li a:hover{
 	background: #1D5B9E;
 	color: #fff;
 	transition: 0.5s ease-in-out;
 	cursor: pointer;
+}
+.consultant-profile .side-bar .sidebar-active a{
+	background: #1D5B9E;
+	color: #fff !important;
 }
 .consultant-profile .side-bar ul li i{
 	width: 50px;
