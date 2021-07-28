@@ -5,3 +5,4 @@
 5. https://asifuix.github.io/buddy_bee/pricing
 6. https://asifuix.github.io/buddy_bee/student-profile
 7. https://asifuix.github.io/buddy_bee/consultant-profile
+8. https://asifuix.github.io/buddy_bee/consultant-personal-profile
