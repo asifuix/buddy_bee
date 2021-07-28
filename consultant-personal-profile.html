@@ -100,13 +100,15 @@
         <div class="row">
           <div class="col-md-3 side-bar">
             <ul>
-              <li><a href="#"><i class="fas fa-users"></i><span>All Consultant</span></a></li>
+              <li><a href="#"><i class="fas fa-calendar-day"></i><span>All Schedule</span></a></li>
               <li><a href="#"><i class="fas fa-microphone"></i><span>Test Your Connection</span></a></li>
-              <li><a href="#"><i class="fas fa-cart-arrow-down"></i><span>View Booking Qty</span></a></li>
+              <li><a href="#"><i class="fas fa-cart-arrow-down"></i><span>View Students Booking</span></a></li>
               <li><a href="#"><i class="fas fa-headset"></i><span>Help & Support</span></a></li>
               <li><a href="#"><i class="fas fa-server"></i><span>User Management</span></a></li>
-              <li class="sidebar-active"><a href="consultant-profile.html"><i class="far fa-user"></i><span>Consultant Profile</span></a></li>
+              <li class="sidebar-active"><a href="consultant-personal-profile.html"><i class="far fa-user"></i><span>My Profile</span></a></li>
               <li><a href="#"><i class="fas fa-tasks"></i><span>Access Management</span></a></li>
+              <li><a href="#"><i class="fab fa-google-drive"></i><span>Consultant Drive</span></a></li>
+              <li><a href="#"><i class="fas fa-dollar-sign"></i><span>Total Earnings</span></a></li>
             </ul>
           </div>
           <div class="col-md-9 consultant-profile-summary">
@@ -206,11 +208,152 @@
                 <div class="consultant-summary-review mt-5">
                   <span>Consultant<br><b>Details</b></span>
                   <div class="summary-review mt-4">
-                    <span class="tab-active me-1" id="summary">Summary</span>
-                    <span id="review">Review</span>
+                    <span class="tab-active me-2" id="contact-info">Contact Info</span>
+                    <span class="me-2" id="experience-skill">Experience & Skill</span>
+                    <span class="me-2" id="review">Review</span>
+                    <span id="summary">Summary</span>
                   </div>
                   <hr>
-                  <div class="summary-content" id="summary-content">
+                  <div class="contact-info-content" id="contact-info-content">
+                    <form action="">
+                      <div class="row">
+                        <div class="col-md-7 left-contact-info">
+                          <div class="row">
+                            <div class="col-md-6 my-3">
+                              <label for="">Name</label>
+                              <input type="text" name="" id="" contenteditable="" placeholder="Amy Demchak Connell">
+                            </div>
+                            <div class="col-md-6 my-3">
+                              <label for="">Email</label>
+                              <input type="email" name="" id="" contenteditable="" placeholder="consultant0123@gmail.com">
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6 my-3">
+                              <label for="">Address</label>
+                              <input type="text" name="" id="" contenteditable="" placeholder="12 Elizabeth Drive ">
+                              <input type="text" name="" id="" contenteditable="" placeholder="Langhome">
+                            </div>
+                            <div class="col-md-6 my-3">
+                              <label for="">Country</label>
+                              <input type="text" name="" id="" contenteditable="" placeholder="US (United States)">
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6 my-3">
+                              <label for="">State</label>
+                              <input type="text" name="" id="" contenteditable="" placeholder="New York">
+                            </div>
+                            <div class="col-md-6 my-3">
+                              <label for="">Timezone</label>
+                              <input type="text" name="" id="" contenteditable="" placeholder="UTC-05:00 Eastern Time (US & Canada)">
+                              <small><i>*Timezone changes will reflect after login again, please login after updating timezone</i></small>
+                            </div>
+                          </div>
+                          <div class="row change-password mt-5">
+                            <h6>Change</br><b>Password</b></h6>
+                            <div class="col-md-6 my-3">
+                              <label for="">New Password</label>
+                              <input type="password" name="" id="" contenteditable="">
+                            </div>
+                            <div class="col-md-6 my-3">
+                              <label for="">Confirm New Password</label>
+                              <input type="password" name="" id="" contenteditable="">
+                            </div>
+                            <div class="save-edit-btn">
+                              <a href="#">Edit Profile</a>
+                              <a href="#">Save Profile</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-5 right-contact-info">
+                          <div class="row">
+                            <div class="col-md-6 my-3">
+                              <label for="">Phone</label>
+                              <input type="text" name="" id="" contenteditable="" placeholder="(989) 670-5609">
+                            </div>
+                            <div class="col-md-6 my-3">
+                              <label for="">Gender</label>
+                              <input type="text" name="" id="" contenteditable="" placeholder="HE">
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6 my-3">
+                              <label for="">Zipcode</label>
+                              <input type="number" name="" id="" contenteditable="" placeholder="10101">
+                            </div>
+                            <div class="col-md-6 my-3">
+                              <label for="">City</label>
+                              <input type="text" name="" id="" contenteditable="" placeholder="New York">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="experience-skill-content personal-profile" id="experience-skill-content">
+                    <h1>experience-skill-content</h1>
+                  </div>
+                  <div class="review-content personal-profile" id="review-content">
+                    <div class="row reviwer-review">
+                      <div class="col-md-5 reviewer">
+                          <dv class="row">
+                            <div class="col-md-4 reviewer-img">
+                              <img src="images/consultant-big-1.png" alt="reviwer-img" class="img-fluid">
+                            </div>
+                            <div class="col-md-8 reviewer-intro">
+                              <h6>Emmy Watson</h6>
+                              <p>Cheif Exicutive, Mecroso</p>
+                              <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                            </div>
+                          </dv>
+                      </div>
+                      <div class="col-md-7 review">
+                        <h6>Congratulations! Amazing Work, Good Luck with sale</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsa nemo eligendi necessitatibus nostrum inventore doloremque quis.</p>
+                        <span>1 week ago</span>
+                      </div>
+                    </div>
+                    <div class="row reviwer-review">
+                      <div class="col-md-5 reviewer">
+                          <dv class="row">
+                            <div class="col-md-4 reviewer-img">
+                              <img src="images/consultant-big-1.png" alt="reviwer-img" class="img-fluid">
+                            </div>
+                            <div class="col-md-8 reviewer-intro">
+                              <h6>Emmy Watson</h6>
+                              <p>Cheif Exicutive, Mecroso</p>
+                              <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                            </div>
+                          </dv>
+                      </div>
+                      <div class="col-md-7 review">
+                        <h6>Congratulations! Amazing Work, Good Luck with sale</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsa nemo eligendi necessitatibus nostrum inventore doloremque quis.</p>
+                        <span>1 week ago</span>
+                      </div>
+                    </div>
+                    <div class="row reviwer-review">
+                      <div class="col-md-5 reviewer">
+                          <dv class="row">
+                            <div class="col-md-4 reviewer-img">
+                              <img src="images/consultant-big-1.png" alt="reviwer-img" class="img-fluid">
+                            </div>
+                            <div class="col-md-8 reviewer-intro">
+                              <h6>Emmy Watson</h6>
+                              <p>Cheif Exicutive, Mecroso</p>
+                              <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                            </div>
+                          </dv>
+                      </div>
+                      <div class="col-md-7 review">
+                        <h6>Congratulations! Amazing Work, Good Luck with sale</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsa nemo eligendi necessitatibus nostrum inventore doloremque quis.</p>
+                        <span>1 week ago</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="summary-content personal-profile" id="summary-content">
                     <div class="row">
                       <div class="col-md-8">
                         <div class="consultant-video-intro">
@@ -239,65 +382,6 @@
                           <div id="calendar"></div>
                           <a href="#">Show All Time</a>
                           </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="review-content" id="review-content">
-                    <div class="row reviwer-review">
-                      <div class="col-md-5 reviewer">
-                          <dv class="row">
-                            <div class="col-md-4 reviewer-img">
-                              <img src="images/consultant-big-1.png" alt="reviwer-img" class="img-fluid">
-                            </div>
-                            <div class="col-md-8 reviewer-intro">
-                              <h6>Emmy Watson</h6>
-                              <p>Cheif Exicutive, Mecroso</p>
-                              <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
-                            </div>
-                          </dv>
-                      </div>
-                      <div class="col-md-7 review">
-                        <h6>Congratulations! Amazing Work, Good Luck with sale</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsa nemo eligendi necessitatibus nostrum inventore doloremque quis.</p>
-                        <span>1 week ago</span>
-                      </div>
-                    </div>
-                    <div class="row reviwer-review">
-                      <div class="col-md-5 reviewer">
-                          <dv class="row">
-                            <div class="col-md-4 reviewer-img">
-                              <img src="images/consultant-big-1.png" alt="reviwer-img" class="img-fluid">
-                            </div>
-                            <div class="col-md-8 reviewer-intro">
-                              <h6>Emmy Watson</h6>
-                              <p>Cheif Exicutive, Mecroso</p>
-                              <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
-                            </div>
-                          </dv>
-                      </div>
-                      <div class="col-md-7 review">
-                        <h6>Congratulations! Amazing Work, Good Luck with sale</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsa nemo eligendi necessitatibus nostrum inventore doloremque quis.</p>
-                        <span>1 week ago</span>
-                      </div>
-                    </div>
-                    <div class="row reviwer-review">
-                      <div class="col-md-5 reviewer">
-                          <dv class="row">
-                            <div class="col-md-4 reviewer-img">
-                              <img src="images/consultant-big-1.png" alt="reviwer-img" class="img-fluid">
-                            </div>
-                            <div class="col-md-8 reviewer-intro">
-                              <h6>Emmy Watson</h6>
-                              <p>Cheif Exicutive, Mecroso</p>
-                              <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
-                            </div>
-                          </dv>
-                      </div>
-                      <div class="col-md-7 review">
-                        <h6>Congratulations! Amazing Work, Good Luck with sale</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsa nemo eligendi necessitatibus nostrum inventore doloremque quis.</p>
-                        <span>1 week ago</span>
                       </div>
                     </div>
                   </div>
@@ -379,30 +463,63 @@
     <!-- tab active class -->
     <script>
       $(document).ready(function(){
+        $("#contact-info").click(function(){
+          $("#contact-info").addClass("tab-active");
+          $("#experience-skill").removeClass("tab-active");
+          $("#summary").removeClass("tab-active");
+          $("#review").removeClass("tab-active");
+        });
+        $("#experience-skill").click(function(){
+          $("#experience-skill").addClass("tab-active");
+          $("#contact-info").removeClass("tab-active");
+          $("#summary").removeClass("tab-active");
+          $("#review").removeClass("tab-active");
+        });
         $("#summary").click(function(){
           $("#summary").addClass("tab-active");
+          $("#contact-info").removeClass("tab-active");
+          $("#experience-skill").removeClass("tab-active");
           $("#review").removeClass("tab-active");
         });
         $("#review").click(function(){
           $("#review").addClass("tab-active");
+          $("#contact-info").removeClass("tab-active");
+          $("#experience-skill").removeClass("tab-active");
           $("#summary").removeClass("tab-active");
         });
+        
       });
     </script>
     <!-- tab switch -->
     <script>
       $(document).ready(function(){
+        $("#contact-info").click(function(){
+          $("#contact-info-content").show();
+          $("#experience-skill-content").hide();
+          $("#review-content").hide();
+          $("#summary-content").hide();
+          $("#calender").hide();
+        });
+        $("#experience-skill").click(function(){
+          $("#experience-skill-content").show();
+          $("#contact-info-content").hide();
+          $("#summary-content").hide();
+          $("#review-content").hide();
+          $("#calender").hide();
+        });
         $("#summary").click(function(){
-          $("#review-content").hide(function(){
-            $("#summary-content").show();
-            $("#calender").show();
-          });
+          $("#summary-content").show();
+          $("#contact-info-content").hide();
+          $("#experience-skill-content").hide();
+          $("#review-content").hide();
+          $("#calender").show();
         });
         $("#review").click(function(){
-          $("#summary-content").hide(function(){
-            $("#review-content").show();
-            $("#calender").hide();
-          });
+          $("#review-content").show();
+          $("#contact-info-content").hide();
+          $("#experience-skill-content").hide();
+          $("#summary-content").hide();
+          $("#calender").hide();
         });
       });
     </script>
