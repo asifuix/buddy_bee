@@ -1931,3 +1931,104 @@ section{
 .consultant-summary-review .right-contact-info input:focus{
 	outline: none;
 }
+/* topic list css */
+.topic-list-sidebar h2{
+	font-size: 30px;
+	font-weight: 500;
+	color: #373A37;
+	margin-bottom: 50px;
+	margin-top: 15px;
+}
+.university-filter h5{
+	font-size: 20px;
+	font-weight: 500;
+	color: #595656;
+}
+.university-location h6{
+	font-size: 16px;
+	font-weight: 500;
+	color: #595656;
+	margin-bottom: 0;
+}
+.university-location span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: #C4C4C4;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 12px;
+}
+.topic-list-content .searchbar{
+	width: 305px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+	padding: 0;
+}
+.university-blog{
+	margin-top: 100px;
+}
+.university-blog-content h3{
+	font-size: 18px;
+	color: #373A37;
+	line-height: 27px;
+}
+.university-blog-content p{
+	font-size: 14px;
+	color: #818181;
+}
+.university-blog-content a{
+	display: inline-block;
+	background: #1D5B9E;
+	color: #fff;
+	font-size: 14px;
+	padding: 10px 15px;
+	border-radius: 3px;
+	margin-top: 20px;
+}
+.university-blog-content span{
+	display: block;
+	color: #1D5B9E;
+	font-size: 16px;
+}
+.university-blog-content ol{
+	margin-top: 10px;
+}
+.university-blog-content ol li{
+	list-style: auto;
+	font-size: 14px;
+	color: #818181;
+}
+.university-list h2{
+	font-size: 28px;
+	color: #373A37;
+	margin: 35px 0;
+}
+.university-list .col-md-4{
+	width: 32%;
+	margin: 0 5px;
+	padding: 0;
+	border: 1px solid #BCB9B9;
+	border-radius: 5px;
+}
+.university-list .university-content h3{
+	font-size: 22px;
+	line-height: 33px;
+	color: #373A37;
+}
+.university-list .university-content address{
+	font-size: 16px;
+	font-weight: 500;
+	color: #373A37;
+}
+.university-list .university-content i{
+	color: #818181;
+	font-size: 16px;
+}
+.university-list .university-content span{
+	color: #373A37;
+	font-size: 16px;
+	font-weight: 500;
+}
