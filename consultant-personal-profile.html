@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -150,17 +150,14 @@
                     <div class="topic-title">
                       <h6>Topic</h6>
                     </div>
-                    <div class="topic-content">
+                    <div class="topic-content d-flex">
                       <span><i class="fas fa-check-square"></i></span>
                       <div class="dropdown">
-                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                          Select Topic
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                          <li><a class="dropdown-item" href="#">Study In Germany</a></li>
-                          <li><a class="dropdown-item" href="#">Study In England</a></li>
-                          <li><a class="dropdown-item" href="#">Study In Denmark</a></li>
-                        </ul>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Germany</option>
+                          <option value="1">USA</option>
+                          <option value="2">UK</option>
+                        </select>
                       </div>
                     </div>
                   </div>
@@ -168,17 +165,14 @@
                     <div class="session-title">
                       <h6>Session</h6>
                     </div>
-                    <div class="session-content">
+                    <div class="session-content d-flex">
                       <span><i class="fas fa-check-square"></i></span>
                       <div class="dropdown">
-                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                          Select Session
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                          <li><a class="dropdown-item" href="#">Winter</a></li>
-                          <li><a class="dropdown-item" href="#">Fall</a></li>
-                          <li><a class="dropdown-item" href="#">Summer</a></li>
-                        </ul>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Winter</option>
+                          <option value="1">Fall</option>
+                          <option value="2">Summer</option>
+                        </select>
                       </div>
                     </div>
                   </div>
@@ -186,17 +180,14 @@
                     <div class="schedule-title">
                       <h6>Schedule</h6>
                     </div>
-                    <div class="schedule-content">
+                    <div class="schedule-content d-flex">
                       <span><i class="fas fa-calendar-day"></i></span>
                       <div class="dropdown">
-                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                          DD/MM/YYYY
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                          <li><a class="dropdown-item" href="#">24/08/2021</a></li>
-                          <li><a class="dropdown-item" href="#">25/08/2021</a></li>
-                          <li><a class="dropdown-item" href="#">26/08/2021</a></li>
-                        </ul>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>31/08/2021</option>
+                          <option value="1">05/09/2021</option>
+                          <option value="2">15/09/2021</option>
+                        </select>
                       </div>
                     </div>
                   </div>
@@ -221,32 +212,32 @@
                           <div class="row">
                             <div class="col-md-6 my-3">
                               <label for="">Name</label>
-                              <input type="text" name="" id="" contenteditable="" placeholder="Amy Demchak Connell">
+                              <input type="text" name="" id="" contenteditable="true" value="Amy Demchak Connell">
                             </div>
                             <div class="col-md-6 my-3">
                               <label for="">Email</label>
-                              <input type="email" name="" id="" contenteditable="" placeholder="consultant0123@gmail.com">
+                              <input type="email" name="" id="" contenteditable="true" value="consultant0123@gmail.com">
                             </div>
                           </div>
                           <div class="row">
                             <div class="col-md-6 my-3">
                               <label for="">Address</label>
-                              <input type="text" name="" id="" contenteditable="" placeholder="12 Elizabeth Drive ">
-                              <input type="text" name="" id="" contenteditable="" placeholder="Langhome">
+                              <input type="text" name="" id="" contenteditable="true" value="12 Elizabeth Drive ">
+                              <input type="text" name="" id="" contenteditable="true" value="Langhome">
                             </div>
                             <div class="col-md-6 my-3">
                               <label for="">Country</label>
-                              <input type="text" name="" id="" contenteditable="" placeholder="US (United States)">
+                              <input type="text" name="" id="" contenteditable="true" value="US (United States)">
                             </div>
                           </div>
                           <div class="row">
                             <div class="col-md-6 my-3">
                               <label for="">State</label>
-                              <input type="text" name="" id="" contenteditable="" placeholder="New York">
+                              <input type="text" name="" id="" contenteditable="true" value="New York">
                             </div>
                             <div class="col-md-6 my-3">
                               <label for="">Timezone</label>
-                              <input type="text" name="" id="" contenteditable="" placeholder="UTC-05:00 Eastern Time (US & Canada)">
+                              <input type="text" name="" id="" contenteditable="true" value="UTC-05:00 Eastern Time (US & Canada)">
                               <small><i>*Timezone changes will reflect after login again, please login after updating timezone</i></small>
                             </div>
                           </div>
@@ -254,11 +245,11 @@
                             <h6>Change</br><b>Password</b></h6>
                             <div class="col-md-6 my-3">
                               <label for="">New Password</label>
-                              <input type="password" name="" id="" contenteditable="">
+                              <input type="password" name="" id="" contenteditable="true" value="abc123abc123">
                             </div>
                             <div class="col-md-6 my-3">
                               <label for="">Confirm New Password</label>
-                              <input type="password" name="" id="" contenteditable="">
+                              <input type="password" name="" id="" contenteditable="true" value="abc123abc123">
                             </div>
                             <div class="save-edit-btn">
                               <a href="#">Edit Profile</a>
@@ -270,21 +261,21 @@
                           <div class="row">
                             <div class="col-md-6 my-3">
                               <label for="">Phone</label>
-                              <input type="text" name="" id="" contenteditable="" placeholder="(989) 670-5609">
+                              <input type="text" name="" id="" contenteditable="true" value="(989) 670-5609">
                             </div>
                             <div class="col-md-6 my-3">
                               <label for="">Gender</label>
-                              <input type="text" name="" id="" contenteditable="" placeholder="HE">
+                              <input type="text" name="" id="" contenteditable="true" value="HE">
                             </div>
                           </div>
                           <div class="row">
                             <div class="col-md-6 my-3">
                               <label for="">Zipcode</label>
-                              <input type="number" name="" id="" contenteditable="" placeholder="10101">
+                              <input type="number" name="" id="" contenteditable="true" value="10101">
                             </div>
                             <div class="col-md-6 my-3">
                               <label for="">City</label>
-                              <input type="text" name="" id="" contenteditable="" placeholder="New York">
+                              <input type="text" name="" id="" contenteditable="true" value="New York">
                             </div>
                           </div>
                         </div>
@@ -402,8 +393,8 @@
                 <span>Buddybee on the go</span>
                 <p>Start or schedule  consultants anytime, anywhere with Android and iPhone apps</p>
                 <div class="download-store">
-                  <a href="#" target="_blank"><img src="images/app-store.png" alt="app-store"></a>
-                  <a href="#" target="_blank"><img src="images/google-play.png" alt="google-play"></a>
+                  <a href="#"  target="_blank"><img src="images/app-store.png" alt="app-store"></a>
+                  <a href="#"  target="_blank"><img src="images/google-play.png" alt="google-play"></a>
                 </div>
               </div>
             </div>
