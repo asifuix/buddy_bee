@@ -212,6 +212,46 @@
   .package-summary .cancel-option .change-plan-btn{
     left: 74%;
   }
+  .student-intro-text h2{
+    font-size: 28px;
+  }
+  .documents-required-content .read-more a{
+    padding: 10px;
+  }
+  .side-bar{
+    display: none;
+  }
+  .consultant-profile{
+    text-align: center;
+  }
+  .consultant-profile .col-md-4,.consultant-profile .col-md-8,.consultant-profile .col-md-9{
+    width: 100%;
+  }
+  .consultant-profile .row{
+    justify-content: center;
+  }
+  .consultant-profile-details-img .upload-pp{
+    left: 400px;
+  }
+  .review-badge{
+    margin-top: 20px;
+  }
+  .availability,.topic,.session,.schedule{
+    justify-content: center;
+  }
+  .consultant-dropdown .dropdown{
+    width: 150px;
+  }
+  .left-contact-info,.right-contact-info,.consultant-summary-review .review{
+    text-align: left;
+  }
+  .university-list .col-md-4 {
+    width: 100%;
+    margin: 10px 5px;
+  }
+  .university-img img{
+    width: 100%;
+  }
 }
 
 /* 
@@ -485,5 +525,46 @@
   .package-summary .promo-input{
     justify-content: center;
     margin-top: 15px;
+  }
+  .student-intro-text h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .student-badge-btn{
+    margin-top: 20px;
+  }
+  .documents-required-content .read-more a{
+    margin-top: 10px;
+  }
+  .side-bar{
+    display: none;
+  }
+  .consultant-profile{
+    text-align: center;
+  }
+  .consultant-profile-details-img .upload-pp{
+    left: 225px;
+  }
+  .review-badge{
+    margin-top: 20px;
+  }
+  .availability,.topic,.session,.schedule{
+    justify-content: center;
+  }
+  .consultant-dropdown .dropdown{
+    width: 150px;
+  }
+  .left-contact-info,.right-contact-info{
+    text-align: left;
+  }
+  .topic-list-content{
+    margin-top: 30px;
+  }
+  .university-list .col-md-4{
+    width: 90%;
+    margin: 15px auto;
+  }
+  .university-img img{
+    width: 100%;
   }
 }
