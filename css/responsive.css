@@ -567,4 +567,13 @@
   .university-img img{
     width: 100%;
   }
+  .courses-department{
+    margin: 0 15px;
+  }
+  .courses-department .col-md-2{
+    width: 10%;
+  }
+  .courses-department .col-md-8{
+    width: 80%;
+  }
 }
