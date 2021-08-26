@@ -2032,3 +2032,60 @@ section{
 	font-size: 16px;
 	font-weight: 500;
 }
+.help-search{
+	background-color: #FBBC19;
+}
+.help-search-box{
+	background-color: #fff;
+	padding: 12px;
+	border-radius: 50px;
+}
+.help-search-box input{
+	width: 85%;
+    background-color: transparent;
+    border: none;
+    margin-left: 12px;
+    color: #818181;
+	font-size: 18px;
+}
+.help-search-box i{
+    color: #818181;
+	font-size: 18px;
+}
+.help-search-box input:focus{
+	outline: none;
+}
+.help-request a{
+	background: transparent;
+    color: #373A37;
+	font-size: 18px;
+    border: 1px solid black;
+	border-radius: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+	margin-bottom: 20px;
+}
+.help-request blockquote{
+    color: #373A37;
+	font-size: 16px;
+}
+.faq-ques h2,.promoted-faq h2{
+    color: #373A37;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.faq-ques a{
+	display: block;
+	margin: 10px 0;
+	font-size: 18px;
+	line-height: 28px;
+	color: #1D5B9E;
+}
+.promoted-faq-ques a{
+	display: block;
+	margin: 20px 0;
+	font-size: 18px;
+	line-height: 28px;
+	color: #373A37;
+}
