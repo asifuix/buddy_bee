@@ -8,3 +8,6 @@
 8. https://asifuix.github.io/buddy_bee/consultant-personal-profile
 9. https://asifuix.github.io/buddy_bee/topic-list
 10. https://asifuix.github.io/buddy_bee/help
+11. https://asifuix.github.io/buddy_bee/contact
+12. https://asifuix.github.io/buddy_bee/login
+13. https://asifuix.github.io/buddy_bee/admin
